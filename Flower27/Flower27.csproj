@@ -15,4 +15,12 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Flower27.Data\Flower27.Data.csproj" />
+    <ProjectReference Include="..\Flower27.EF\Flower27.EF.csproj" />
+    <ProjectReference Include="..\Flower27.Infrastructure\Flower27.Infrastructure.csproj" />
+    <ProjectReference Include="..\Flower27.Service\Flower27.Service.csproj" />
+    <ProjectReference Include="..\Flower27.Utilities\Flower27.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>

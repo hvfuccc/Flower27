@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Flower27.Data\Flower27.Data.csproj" />
+    <ProjectReference Include="..\Flower27.EF\Flower27.EF.csproj" />
+    <ProjectReference Include="..\Flower27.Utilities\Flower27.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

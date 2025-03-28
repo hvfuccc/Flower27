@@ -5,6 +5,16 @@ VisualStudioVersion = 17.13.35919.96 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flower27", "Flower27\Flower27.csproj", "{977075E4-61AD-4F6D-AD56-150C106A5DAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flower27.Data", "Flower27.Data\Flower27.Data.csproj", "{6CC4899A-CB50-425B-8E99-9554E8BA3765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flower27.EF", "Flower27.EF\Flower27.EF.csproj", "{FB02E517-BC70-4F3D-9FFF-0026EADA8809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flower27.Service", "Flower27.Service\Flower27.Service.csproj", "{6CC264F1-D409-4C74-B6B1-8219C24F129C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flower27.Utilities", "Flower27.Utilities\Flower27.Utilities.csproj", "{6E5B7AB3-0C62-4929-BF44-305F5526872C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flower27.Infrastructure", "Flower27.Infrastructure\Flower27.Infrastructure.csproj", "{FA5EDF30-2E5C-4F36-B2C9-1731533E4A7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{977075E4-61AD-4F6D-AD56-150C106A5DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{977075E4-61AD-4F6D-AD56-150C106A5DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{977075E4-61AD-4F6D-AD56-150C106A5DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CC4899A-CB50-425B-8E99-9554E8BA3765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC4899A-CB50-425B-8E99-9554E8BA3765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC4899A-CB50-425B-8E99-9554E8BA3765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC4899A-CB50-425B-8E99-9554E8BA3765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB02E517-BC70-4F3D-9FFF-0026EADA8809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB02E517-BC70-4F3D-9FFF-0026EADA8809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB02E517-BC70-4F3D-9FFF-0026EADA8809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB02E517-BC70-4F3D-9FFF-0026EADA8809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CC264F1-D409-4C74-B6B1-8219C24F129C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC264F1-D409-4C74-B6B1-8219C24F129C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC264F1-D409-4C74-B6B1-8219C24F129C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC264F1-D409-4C74-B6B1-8219C24F129C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5B7AB3-0C62-4929-BF44-305F5526872C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5B7AB3-0C62-4929-BF44-305F5526872C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5B7AB3-0C62-4929-BF44-305F5526872C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5B7AB3-0C62-4929-BF44-305F5526872C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA5EDF30-2E5C-4F36-B2C9-1731533E4A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5EDF30-2E5C-4F36-B2C9-1731533E4A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5EDF30-2E5C-4F36-B2C9-1731533E4A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5EDF30-2E5C-4F36-B2C9-1731533E4A7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
